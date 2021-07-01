@@ -1,3 +1,8 @@
+from django.contrib import admin
+from django.urls import path,include
+
+from pypro.base.views import home
+
 """pypro URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -14,9 +19,8 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 
+
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', home)
-
-
+    path('', home),
 ]
