@@ -1,8 +1,3 @@
-from django.contrib import admin
-from django.urls import path
-
-from pypro.base.views import home
-
 """pypro URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
