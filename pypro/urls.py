@@ -1,5 +1,5 @@
 from django.contrib import admin
-from django.urls import path, include
+from django.urls import path
 
 from pypro.base.views import home
 
@@ -21,7 +21,7 @@ Including another URLconf
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('pypro.base.urls'))
+    path('', home)
 
 
 ]
