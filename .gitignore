@@ -22,6 +22,7 @@ var/
 wheels/
 pip-wheel-metadata/
 share/python-wheels/
+staticfiles
 *.egg-info/
 .installed.cfg
 *.egg
@@ -59,6 +60,7 @@ coverage.xml
 *.log
 local_settings.py
 db.sqlite3
+staticfiles
 db.sqlite3-journal
 
 # Flask stuff:
