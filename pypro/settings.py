@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 import os
 from functools import partial
 from pathlib import Path
-#1
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 import dj_database_url
 import sentry_sdk
