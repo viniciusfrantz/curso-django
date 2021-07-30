@@ -13,6 +13,7 @@ django-s3-folder-storage = "*"
 collectfast = "*"
 django-debug-toolbar = "*"
 sentry-sdk = "*"
+coverage = "*"
 
 [dev-packages]
 flake8 = "*"
